@@ -3,4 +3,63 @@
 *{
     
     font-family: 'Work Sans', sans-serif; 
+    /* max-width: 1300px; */
+    /* margin: 0 auto; */
+}
+
+header{
+   background-color: 
+   rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+    /* margin: 0 auto; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:  rgba(19, 19, 19, 1);
+
+}
+
+nav>ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    /* font-size: 18px; */
+    font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+    
+    
+}
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color:  rgba(19, 19, 19, 1);
+    
+}
+
+.banner-description{
+    color: rgba(114, 114, 114, 1);
+
 }
